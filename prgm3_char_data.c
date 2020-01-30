@@ -27,6 +27,14 @@ int main(void) {
      printf("\tThe squared value is %d\n",square);
      printf("The sqaure root is: %f\n",squareroot);
 
+     char c;
+     c = 'A';
+     c += ('Z' - 'A');
+     c += '\0';
+     c -= ('Z' - 'a');
+
+     printf("\t The value of C is: %c\n", c);
+
 
      return 0;
 }

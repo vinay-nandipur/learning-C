@@ -33,6 +33,38 @@ int main(void)
 
 	printf("Value of l variable is: %d\n", l);
 
+	int m;
+	m = 2 * 2 / 2 + 2 * 2 - 1 / 2 % 2;
+
+	printf("Value of m variable is: %d\n", m);
+
+	int n;
+	n = 100;
+	n = (n == 100) + (n != 101);
+
+	printf("Value of n variable is: %d\n", n);
+
+	int a,b;
+	scanf("%d",&a);
+	if(a == 0)
+	{
+	  a = a + 1;
+	}
+	b = a;
+	printf("%d", b/a);
+
+	int c;
+	c = 100;
+	if(c >= 100)
+	  c++;
+	if(c > 101)
+	  c++;	
+	c += (c > 0) + (c < 1000) + (c >= 100) + (c <= 100);
+
+	printf("Value of c variable is: %d\n", c);
+
+
+
 	return 0;
 	// return tells the exit status of main function to the OS
 }
