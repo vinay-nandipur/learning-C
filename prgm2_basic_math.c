@@ -22,6 +22,8 @@ int main(void)
   // float keyword to define Float data type
   var3 = var1 - var2;
   printf("Value of var3 variable is: %f\n", var3);
+  // printf is an function retrieved from stdio.h header file
+	// %f is a specifier, printf function will print a variable based on the specifier
 
 	int i,j,k,l;
 	i=100;
