@@ -10,7 +10,7 @@ int main(void)
 {
 	// Main function body starts and ends with curly braces
 	puts("Starting Basic Maths");
-	// puts is an function retrieved from stdio.h header file
+	// puts is an function retrieved from stdio.h header file used to print only data of type char.
 	int var1;
 	// int keyword to define integer data type
 	var1 = 100;
