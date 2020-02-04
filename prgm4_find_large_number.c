@@ -1,27 +1,33 @@
-/* finding the larger of two numbers */
+/* finding the larger of three numbers */
 #include <stdio.h>
 
 int main(void) {
-	/* the two numbers */
-	int number1,number2;
+	/* the three numbers */
+	int number1,number2,number3;
 
 	/* we will save the larger number here */
 	int max;
 
-	/* read two numbers */
+	/* read three numbers */
 
   printf("Enter the First Number:\n");
 	scanf("%d",&number1);
   printf("Enter the Second Number:\n");
 	scanf("%d",&number2);
+	printf("Enter the Third Number:\n");
+	scanf("%d",&number3);
 
 	/* we temporarily assume that the former number is the larger one */
 	/* we will check it soon */
 	max = number1;
 
-	/* we check if the assumption was true */
+	/* we check if the second value is the largest */
 	if(number2 > max)
 		max = number2;
+
+  /* we check if the third value is the largest */
+	if(number3 > max)
+    max = number3;
 
 	/* we print the result */
 	printf("The largest number is %d \n",max);
