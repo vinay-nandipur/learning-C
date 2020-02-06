@@ -45,20 +45,21 @@ int main(void)
 	printf("Value of n variable is: %d\n", n);
 
 	int a,b;
+	printf("Enter value of a:\n");
 	scanf("%d",&a);
 	if(a == 0)
 	{
 	  a = a + 1;
 	}
 	b = a;
-	printf("%d", b/a);
+	printf("Value of a now is: %d\n", b/a);
 
 	int c;
 	c = 100;
 	if(c >= 100)
 	  c++;
 	if(c > 101)
-	  c++;	
+	  c++;
 	c += (c > 0) + (c < 1000) + (c >= 100) + (c <= 100);
 
 	printf("Value of c variable is: %d\n", c);
@@ -68,3 +69,20 @@ int main(void)
 	return 0;
 	// return tells the exit status of main function to the OS
 }
+
+/*
+
+Output:
+
+Starting Basic Maths
+Value of var1 variable is: 200
+Value of var3 variable is: 150.000000
+Value of l variable is: 10
+Value of m variable is: 6
+Value of n variable is: 2
+Enter value of a:
+10
+Value of a now is: 1
+Value of c variable is: 104
+
+*/
