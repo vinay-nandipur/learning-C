@@ -27,3 +27,15 @@
 
     return 0;
 }
+
+/*
+
+Output:
+
+Enter the Number:
+1
+Enter the Number:
+99
+The largest number is 99
+
+*/
