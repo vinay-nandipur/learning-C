@@ -4,7 +4,7 @@ int main(void) {
      int VarInt;
      char VarChar;
      float VarFloat;
-     VarInt = 2012;
+     VarInt = 2020;
      VarChar = 'r';
      VarFloat = 3.1415;
      printf("\tThe year is %d.\n \tThe radius is denoted as %c\n \twhile PI is equal to %f\n",VarInt, VarChar, VarFloat);
@@ -38,3 +38,22 @@ int main(void) {
 
      return 0;
 }
+
+/*
+
+Output:
+
+The year is 2020.
+The radius is denoted as r
+while PI is equal to 3.141500
+Integer Value: 31
+ASCII Hexadecimal Value: 1f
+ASCII Octal Value: 37
+Give me a number and I will square it!
+2
+You've given 2
+The squared value is 4
+The sqaure root is: 1.414214
+The value of C is: a
+
+*/ 
