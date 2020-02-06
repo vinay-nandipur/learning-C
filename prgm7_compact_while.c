@@ -9,3 +9,16 @@ int main(void) {
     }
     return 0;
 }
+
+
+/*
+
+Output:
+
+I am an awesome compact program
+I am an awesome compact program
+I am an awesome compact program
+I am an awesome compact program
+I am an awesome compact program
+
+*/
