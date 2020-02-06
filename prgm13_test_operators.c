@@ -15,7 +15,7 @@ int main(void)
       }
      else
         i -= 100;
-    printf("\nValue if i variable is: %d\t\n", i);
+    printf("\nValue of i variable is: %d\t\n", i);
     return 0;
 
 }
@@ -24,6 +24,6 @@ int main(void)
 
 Output:
 
-Value if i variable is: 500
+Value of i variable is: 500
 
 */
