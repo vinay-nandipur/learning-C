@@ -33,3 +33,26 @@ int main(void) {
     printf("Odd numbers: %d\n",Odds);
     return 0;
 }
+
+/*
+
+Output:
+
+Enter the First Number:
+10
+Enter the Next Number:
+20
+Enter the Next Number:
+30
+Enter the Next Number:
+1
+Enter the Next Number:
+3
+Enter the Next Number:
+5
+Enter the Next Number:
+0
+Even numbers: 3
+Odd numbers: 3
+
+*/
