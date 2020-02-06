@@ -30,8 +30,25 @@ int main(void) {
         /* print the largest number */
         printf("The largest number is %d \n",max);
 
-        printf("you have entered a number greater than 100, that is: %d:",number);
+        printf("you have entered a number greater than 100, that is: %d\n",number);
 
         /* finish the program successfully */
         return 0;
 }
+
+/*
+
+Output:
+
+Enter the Number:
+10
+Enter the Next Number:
+20
+Enter the Next Number:
+5
+Enter the Next Number:
+101
+The largest number is 20
+you have entered a number greater than 100, that is: 101
+
+*/
