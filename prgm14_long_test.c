@@ -6,6 +6,15 @@ int main(void)
   int i;
   l = 1l + 1L;
   i = l;
-  printf("%d",i);
+  printf("\nValue if i variable is: %d\t\n",i);
   return 0;
 }
+
+
+/*
+
+Output:
+
+Value if i variable is: 2
+
+*/
