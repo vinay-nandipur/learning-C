@@ -19,6 +19,6 @@ int main(void)
 
 Output:
 
-Value if Float variable is: 72.000000
+Value of Float variable is: 72.000000
 
 */
