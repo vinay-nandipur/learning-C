@@ -8,7 +8,16 @@ int main(void)
     j++;
     i *=2;
   }
-  printf("%d",j);
+  printf("\nValue of j variable is: %d\t\n",j);
   return 0;
 
-}  
+}
+
+
+/*
+
+Output:
+
+Value of j variable is: 7
+
+*/
