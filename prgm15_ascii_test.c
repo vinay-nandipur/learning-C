@@ -10,7 +10,15 @@ int main(void)
   Int = 100; Char = '$'; Short = Char; Float = 0.5;
   Int = Short + Char + Float;
   Float = Int;
-  printf("%f", Float);
+  printf("\nValue if Float variable is: %f\t\n", Float);
   return 0;
 
-}  
+}
+
+/*
+
+Output:
+
+Value if Float variable is: 72.000000
+
+*/
