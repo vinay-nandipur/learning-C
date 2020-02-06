@@ -15,7 +15,15 @@ int main(void)
       }
      else
         i -= 100;
-    printf("%d", i);
+    printf("\nValue if i variable is: %d\t\n", i);
     return 0;
 
 }
+
+/*
+
+Output:
+
+Value if i variable is: 500
+
+*/
