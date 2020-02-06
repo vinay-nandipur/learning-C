@@ -11,3 +11,9 @@ int main(void)
 	return 0;
 	// return tells the exit status of main function to the OS
 }
+
+/* Output:
+
+Let's Learn C Programming
+
+*/
