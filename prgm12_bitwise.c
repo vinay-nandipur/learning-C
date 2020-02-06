@@ -42,3 +42,19 @@ int main(void)
 
     return 0;
 }
+
+
+/*
+
+Output:
+
+a = 5, b = 9
+a&b = 1
+a|b = 13
+a^b = 12
+~a = 250
+b<<1 = 18
+b>>1 = 4
+The odd occurring element is 90
+
+*/
