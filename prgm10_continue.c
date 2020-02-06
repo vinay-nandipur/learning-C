@@ -28,3 +28,21 @@ int main(void) {
 
     return 0;
 }
+
+
+/*
+
+Output:
+
+Enter the Number:
+10
+Enter the Number:
+25
+Enter the Number:
+101
+entered number is invalid!, number should be betweeen 0 to 100
+Enter the Number:
+99
+The largest number is 99
+
+*/
