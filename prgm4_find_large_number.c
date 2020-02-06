@@ -35,3 +35,17 @@ int main(void) {
 	/* we finish the program successfully */
 	return 0;
 }
+
+/*
+
+Output:
+
+Enter the First Number:
+1
+Enter the Second Number:
+2
+Enter the Third Number:
+3
+The largest number is 3
+
+*/
